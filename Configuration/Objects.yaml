@@ -1,0 +1,6 @@
+Nats\Connection:
+  factoryObjectName: Ttree\Flow\NatsIo\ConnectionFactory
+  factoryMethodName: create
+  arguments:
+    1:
+      value: 'default'

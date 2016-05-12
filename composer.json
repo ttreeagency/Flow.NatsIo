@@ -1,0 +1,24 @@
+{
+    "name": "ttree/flow-natsio",
+    "type": "typo3-flow-package",
+    "description": "Flow Framework integration of Nats IO, open source, modern and secure messaging system for distributed systems and scalable cloud applications",
+    "license": "MIT",
+    "keywords": [
+        "flowframework",
+        "nats",
+        "natsio",
+        "messaging system",
+        "cloud",
+        "distributed",
+        "scalable"
+    ],
+    "require": {
+        "typo3/flow": "*",
+        "repejota/nats": "^0.6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\Flow\\NatsIo\\": "Classes"
+        }
+    }
+}

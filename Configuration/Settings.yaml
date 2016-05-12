@@ -1,0 +1,12 @@
+Ttree:
+  Flow:
+    NatsIo:
+      presets:
+        'default':
+          host: 'localhost'
+          port: 4222
+          user: NULL
+          pass: NULL
+          verbose: false
+          pedantic: false
+          reconnect: true
