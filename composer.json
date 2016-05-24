@@ -14,7 +14,7 @@
     ],
     "require": {
         "typo3/flow": "*",
-        "repejota/nats": "^0.6.3"
+        "repejota/nats": "*"
     },
     "autoload": {
         "psr-4": {
